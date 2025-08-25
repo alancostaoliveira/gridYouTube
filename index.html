@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Youtube</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="container-header">
+        <nav class="container-nav">
+          <div class="dropdown">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#5f6368"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+            <picture>
+              <img
+                src="./assets/image/youtube-logo.png"
+                alt="logo youtube"
+                width="90"
+                height="20"
+              />
+            </picture>
+          </div>
+        </nav>
+        <form id="search-form" action="/results" class="searchbox">
+          <label for="busca" class="label-search">
+            <input
+              class="input-search"
+              type="text"
+              name="query"
+              placeholder="Pesquisar"
+              id="busca"
+              width="415"
+            />
+            <button
+              class="btn-search"
+              type="submit"
+              id="search"
+              aria-label="Pesquisar"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#5f6368"
+              >
+                <path
+                  d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                />
+              </svg>
+            </button>
+          </label>
+        </form>
+        <div class="perfil">
+          <picture>
+            <img src="./assets/image/camera.png" alt="desenho do video" />
+            <img src="./assets/image/notificacao.png" alt="desenho do sino" />
+            <img src="./assets/image/Avatar.png" alt="avatar do usuario" />
+          </picture>
+        </div>
+      </header>
+      <aside>
+        <div class="menu-sidebar">
+          <picture>
+            <a href="#"
+              ><img src="./assets/image/home (1).png" alt="home-principal" /><b
+                >Início</b
+              ></a
+            >
+            <a href="#"
+              ><img
+                src="./assets/image/explorar.png"
+                alt="bussola-explorar"
+              />Explorar</a
+            >
+            <a href="#"
+              ><img
+                src="./assets/image/youtube.png"
+                alt="logo-youtube"
+              />Inscrições</a
+            >
+            <a href="#"
+              ><img src="./assets/image/musica.png" alt="musica" />TouTube
+              Music</a
+            >
+            <a href="#"
+              ><img src="./assets/image/gostei.png" alt="gostei" />Vídeos que
+              gostei</a
+            >
+            <a href="#"
+              ><img src="./assets/image/relogio.png" alt="relogio" />Assistir
+              mais tarde</a
+            >
+            <a href="#"
+              ><img src="./assets/image/download.png" alt="baixar" />Dowloads</a
+            >
+            <a href="#"
+              ><img src="./assets/image/filme.png" alt="filme" />Filmes</a
+            >
+            <a href="#"
+              ><img src="./assets/image/aprender.png" alt="livro" />Aprender</a
+            >
+            <a href="#"
+              ><img
+                src="./assets/image/esportes.png"
+                alt="esporte"
+              />Esportes</a
+            >
+          </picture>
+        </div>
+      </aside>
+      <main>
+        <div class="grid-container">
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/watch?v=beW0jV6LU7I"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/beW0jV6LU7I/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>Lançamento Santander Bootcamp Cibersegurança #2</h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/live/Md5t4eOwvX4?si=JWe3bN-aFc82whfa"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/Md5t4eOwvX4/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>Como se Preparar para sua Primeira Certificação Azure</h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/watch?v=QP3OuZ3OXu0"
+              target="_blank"
+              target="_blank"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/QP3OuZ3OXu0/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>
+                  Desenvolvendo um Filtro de Moderação de Conteúdo com Python
+                  Utilizando as APIs do Twitter e OpenAI
+                </h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a href="https://youtu.be/xtbbbFMINaA" target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/xtbbbFMINaA/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>Torne-se um especialista em Kubernetes</h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/watch?v=A4FqRmn22i4"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/A4FqRmn22i4/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>Lançamento Bootcamp Microsoft - Azure Advanced</h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/watch?v=rS5wg5PQ8Us"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/rS5wg5PQ8Us/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>
+                  A Importância da Lógica no Dia a Dia de Profissionais de
+                  Tecnologia
+                </h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/watch?v=B6_os-gK7F0"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi/B6_os-gK7F0/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhYIEooZTAP&rs=AOn4CLCJVb3b6P6rm3G7nfBpnmIhJM33sg"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>Conheça o canal da Dio</h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/watch?v=CMSdc9z4pzQ"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/CMSdc9z4pzQ/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>
+                  Utilizando Spark e Python com PySpark para Análise de Dados
+                </h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a href="https://youtu.be/q4YgWd-w6d4" target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/q4YgWd-w6d4/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>
+                  Como um Bootcamp da DIO Transformou Minha Vida Profissional |
+                  Hired #15
+                </h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/live/Md5t4eOwvX4?si=JWe3bN-aFc82whfa"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/5KVa0TqxD04/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>Como se Preparar para sua Primeira Certificação Azure</h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/watch?v=xHw8GGVJWlU"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/xHw8GGVJWlU/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>Formação Linux Fundamentals da DIO</h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-thumbnail">
+            <a
+              href="https://www.youtube.com/watch?v=4APVxgm4lgM"
+              target="_blank"
+              ><img
+                src="https://i.ytimg.com/vi_webp/4APVxgm4lgM/mqdefault.webp"
+                alt="Thumbnail do vídeo do YouTube"
+                class="thumbnail-image"
+            /></a>
+            <div class="avatar-thambnail">
+              <picture>
+                <img
+                  src="./assets/image/Channel Avatar.png"
+                  alt="avatar-canal"
+                />
+              </picture>
+
+              <div class="description-thambnail">
+                <h3>Como Fazer Deploy de Aplicações na Azure</h3>
+                <p>2,1 mil visualizações</p>
+                <p>Transmitido à 3 semanas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

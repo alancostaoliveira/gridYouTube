@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr; /* Barra lateral (200px) e conteúdo principal (flexível) */
+  grid-template-rows: auto 1fr auto; /* Cabeçalho, conteúdo central flexível e rodapé */
+  height: 100vh; /* Ocupa 100% da altura da tela */
+}
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 1rem 2rem;
+  color: #333;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+picture img {
+  margin-left: 1rem;
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.label-search {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-search {
+  flex-grow: 1;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 1.6rem;
+  outline: none;
+  width: 40.4rem;
+  height: auto;
+}
+
+.btn-search {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 37px;
+  height: 40px;
+}
+
+.btn-search:hover svg {
+  fill: #000;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil picture img {
+  margin-left: 2rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  cursor: pointer;
+}
+
+.content-main {
+  display: flex;
+  flex-direction: row;
+}
+
+/* estilo sidebar */
+.menu-sidebar {
+  width: 20rem; /* ajuste conforme necessário */
+  padding: 2.5rem 0 0 1rem;
+}
+
+.menu-sidebar picture {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; /* espaço entre os itens */
+}
+
+.menu-sidebar a,
+b {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.menu-sidebar img {
+  width: 2.4rem; /* ajuste conforme necessário */
+  height: auto;
+  margin-right: 1rem; /* espaço entre imagem e texto */
+}
+
+/* estilo main */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas de largura igual */
+  grid-template-rows: repeat(3, auto); /* 3 linhas de altura automática */
+  /* Espaçamento entre os itens */ /* Espaçamento ao redor da grade */
+}
+.video-thumbnail {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.thumbnail-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.avatar-thambnail {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.description-thambnail {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.2rem;
+  align-items: start;
+}
+.description-thambnail p {
+  font-size: 1rem;
+}
+
+.metadata-thambnail {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Definindo áreas do layout */
+header {
+  grid-column: 1 / -1; /* Cabeçalho ocupa toda a largura */
+  padding: 2rem;
+  text-align: center;
+}
+
+aside {
+  grid-row: 2; /* Ocupa o meio à esquerda */
+}
+
+main {
+  grid-row: 2;
+  padding: 2rem;
+}
