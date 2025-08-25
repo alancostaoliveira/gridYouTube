@@ -75,5 +75,5 @@ Este projeto permitiu praticar os seguintes pontos:
 Caso tenha sugestões ou dúvidas, fique à vontade para entrar em contato!
 
 Nome: Alan Costa Oliveira
-LinkedIn: https://www.linkedin.com/in/alancostaoliveira/
+LinkedIn: [(https://www.linkedin.com/in/alan-costa-bab784340/)]
 GitHub: https://github.com/alancostaoliveira
